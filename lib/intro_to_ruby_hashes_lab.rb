@@ -18,9 +18,5 @@ end
 
 
 def id_hash_generator(number)
- if id_hash_generator[:id]
-   id_hash_generator[:id] = number 
- else 
-   id_hash_generator[:id] = number
- end 
+ { id: number }
 end
